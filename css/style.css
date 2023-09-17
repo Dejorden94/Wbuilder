@@ -54,6 +54,7 @@ body {
 .card__body {
     height: 20%;
     padding: var(--padding);
+    border-bottom: 0.1rem solid #eee;
 }
 
 .card__footer {
