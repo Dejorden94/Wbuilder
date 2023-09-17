@@ -6,10 +6,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background-dark: #5B0888;
+    --background-normal: #713ABE;
+    --background-light: #9D76C1;
+    --background-super-light: #E5CFF7;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
     font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
