@@ -14,6 +14,8 @@
     --font-color: hsl(0, 0%, 25%);
     --font-family: 'Roboto', sans-serif;
     --padding: 1rem;
+
+    --border-light-gray: 0.1rem solid #eee;
 }
 
 html {
@@ -34,6 +36,8 @@ body {
 .card {
     width: 40rem;
     aspect-ratio: 1/1;
+    border-bottom: var(--border-light-gray);
+    border-top: none;
 }
 
 .card__header {
@@ -52,11 +56,14 @@ body {
 }
 
 .card__body {
-    height: 20%;
+    height: 25%;
     padding: var(--padding);
-    border-bottom: 0.1rem solid #eee;
+    border-bottom: var(--border-light-gray);
 }
 
 .card__footer {
-    height: 20%;
+    height: 15%;
+    padding: var(--padding);
+    display: flex;
+    align-items: center;
 }
