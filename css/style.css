@@ -20,4 +20,26 @@ html {
 body {
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 40rem;
+    aspect-ratio: 1/1;
+}
+
+.card__header {
+    height: 60%;
+    background: var(--background-normal);
+}
+
+.card__body {
+    height: 20%;
+}
+
+.card__footer {
+    height: 20%;
 }
