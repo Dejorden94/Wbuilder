@@ -10,10 +10,13 @@
     --background-dark: #5B0888;
     --background-normal: #713ABE;
     --background-light: #9D76C1;
+    --background-secondary: #3085C3;
     --background-super-light: #E5CFF7;
+    --primary: #713ABE;
     --font-color: hsl(0, 0%, 25%);
     --font-family: 'Roboto', sans-serif;
     --padding: 1rem;
+    --font-color-white: white;
 
     --border-light-gray: 0.1rem solid #eee;
 }
@@ -36,34 +39,57 @@ body {
 .card {
     width: 40rem;
     aspect-ratio: 1/1;
-    border-bottom: var(--border-light-gray);
     border-top: none;
+    box-shadow: 0 1rem 0.75rem 0 rgba(0, 0, 0, 0.2);
 }
 
 .card__header {
     height: 60%;
-    background: var(--background-normal);
+    background: var(--primary);
     display: flex;
     align-items: flex-end;
     padding: var(--padding);
     padding-bottom: calc(var(--padding)*1.5);
 }
 
+.card>div {
+    border-top: none;
+    border: var(--border-light-gray);
+    height: 40%;
+}
+
 .card__heading {
     font-size: 150%;
     font-weight: 500;
-    color: white;
+    color: var(--font-color-white);
 }
 
 .card__body {
-    height: 25%;
+    height: 60%;
     padding: var(--padding);
     border-bottom: var(--border-light-gray);
 }
 
 .card__footer {
-    height: 15%;
+    height: 40%;
     padding: var(--padding);
     display: flex;
     align-items: center;
+}
+
+.card__action {
+    background: var(--background-secondary);
+    font-family: var(--font-family);
+    width: 10rem;
+    aspect-ratio: 1.2/0.4;
+    border: none;
+    color: var(--font-color-white);
+}
+
+.card__action:hover {
+    cursor: pointer;
+}
+
+.card__action:focus {
+    outline: 0.2rem solid var(--primary);
 }
