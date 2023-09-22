@@ -2,16 +2,52 @@
     {
         "root": true,
         "tag": "article",
-        "classList": "card"
+        "classList": "card",
+        "children": [
+            {
+                "root": false,
+                "tag": "header",
+                "classList": "card__header"
+            },
+            {
+                "root": false,
+                "tag": "div",
+                "classList": ""
+            }
+        ]
     },
     {
         "root": true,
         "tag": "article",
-        "classList": "card"
+        "classList": "card",
+        "children": [
+            {
+                "root": false,
+                "tag": "header",
+                "classList": "card__header"
+            },
+            {
+                "root": false,
+                "tag": "div",
+                "classList": ""
+            }
+        ]
     },
     {
         "root": true,
         "tag": "article",
-        "classList": "card"
+        "classList": "card",
+        "children": [
+            {
+                "root": false,
+                "tag": "header",
+                "classList": "card__header"
+            },
+            {
+                "root": false,
+                "tag": "div",
+                "classList": ""
+            }
+        ]
     }
 ]

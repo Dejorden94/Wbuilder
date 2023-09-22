@@ -95,11 +95,20 @@ const init = () => {
 };
 
 function render(data) {
+    let element
     for (let i = 0; i < data.length; i++) {
         if (data[i].root === true) {
-            const element = document.createElement(data[i].tag);
+            element = document.createElement(data[i].tag);
             element.classList = data[i].classList;
             document.querySelector("body").appendChild(element);
+        }
+        if (data[i].children.length > 0) {
+            console.log("niet leeg");
+            for (let j = 0; j < data[i].children.length; j++) {
+                const childElement = document.createElement(data[i].children[j].tag);
+                childElement.classList = data[i].children[j].classList;
+                element.appendChild(childElement);
+            }
         }
     }
 }
