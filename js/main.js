@@ -97,7 +97,9 @@ const init = () => {
 function render(data) {
     for (let i = 0; i < data.length; i++) {
         if (data[i].root === true) {
-            document.querySelector("body").appendChild(document.createElement(data[i].tag));
+            const element = document.createElement(data[i].tag);
+            element.classList = data[i].classList;
+            document.querySelector("body").appendChild(element);
         }
     }
 }
