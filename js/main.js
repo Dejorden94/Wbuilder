@@ -94,22 +94,21 @@ const init = () => {
     })
 };
 
-function render(data) {
-    let element
+function render(data, parent) {
+    let childElement;
     for (let i = 0; i < data.length; i++) {
+        childElement = document.createElement(data[i].tag);
+        childElement.classList = data[i].classList;
         if (data[i].root === true) {
-            element = document.createElement(data[i].tag);
-            element.classList = data[i].classList;
-            document.querySelector("body").appendChild(element);
+            parent = document.querySelector("body");
+        }
+        if (data[i].text !== undefined) {
+            childElement.innerText = data[i].text
         }
         if (data[i].children.length > 0) {
-            console.log("niet leeg");
-            for (let j = 0; j < data[i].children.length; j++) {
-                const childElement = document.createElement(data[i].children[j].tag);
-                childElement.classList = data[i].children[j].classList;
-                element.appendChild(childElement);
-            }
+            render(data[i].children, childElement)
         }
+        parent.appendChild(childElement);
     }
 }
 

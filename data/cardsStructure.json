@@ -5,14 +5,91 @@
         "classList": "card",
         "children": [
             {
-                "root": false,
                 "tag": "header",
-                "classList": "card__header"
+                "classList": "card__header",
+                "children": [
+                    {
+                        "tag": "h1",
+                        "classList": "card__heading",
+                        "children": []
+                    }
+                ]
             },
             {
-                "root": false,
                 "tag": "div",
-                "classList": ""
+                "classList": "",
+                "children": [
+                    {
+                        "tag": "section",
+                        "classList": "card__body",
+                        "children": [
+                            {
+                                "tag": "p",
+                                "classList": "card__text",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "footer",
+                        "classList": "card__footer",
+                        "children": [
+                            {
+                                "tag": "button",
+                                "classList": "card__action",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tag": "article",
+        "classList": "card",
+        "children": [
+            {
+                "tag": "header",
+                "classList": "card__header",
+                "children": [
+                    {
+                        "tag": "h1",
+                        "classList": "card__heading",
+                        "children": [],
+                        "text": "Card 2"
+                    }
+                ]
+            },
+            {
+                "tag": "div",
+                "classList": "",
+                "children": [
+                    {
+                        "tag": "section",
+                        "classList": "card__body",
+                        "children": [
+                            {
+                                "tag": "p",
+                                "classList": "",
+                                "children": [],
+                                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore itaque eius non? Recusandae, quisquam."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "footer",
+                        "classList": "card__footer",
+                        "children": [
+                            {
+                                "tag": "button",
+                                "classList": "card__action",
+                                "children": [],
+                                "text": "action"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -22,31 +99,43 @@
         "classList": "card",
         "children": [
             {
-                "root": false,
                 "tag": "header",
-                "classList": "card__header"
+                "classList": "card__header",
+                "children": [
+                    {
+                        "tag": "h1",
+                        "classList": "card__heading",
+                        "children": []
+                    }
+                ]
             },
             {
-                "root": false,
                 "tag": "div",
-                "classList": ""
-            }
-        ]
-    },
-    {
-        "root": true,
-        "tag": "article",
-        "classList": "card",
-        "children": [
-            {
-                "root": false,
-                "tag": "header",
-                "classList": "card__header"
-            },
-            {
-                "root": false,
-                "tag": "div",
-                "classList": ""
+                "classList": "",
+                "children": [
+                    {
+                        "tag": "section",
+                        "classList": "card__body",
+                        "children": [
+                            {
+                                "tag": "p",
+                                "classList": "card__text",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "footer",
+                        "classList": "card__footer",
+                        "children": [
+                            {
+                                "tag": "button",
+                                "classList": "card__action",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }
