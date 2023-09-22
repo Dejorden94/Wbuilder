@@ -1,0 +1,17 @@
+[
+    {
+        "root": true,
+        "tag": "article",
+        "classList": "card"
+    },
+    {
+        "root": true,
+        "tag": "article",
+        "classList": "card"
+    },
+    {
+        "root": true,
+        "tag": "article",
+        "classList": "card"
+    }
+]
