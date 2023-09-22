@@ -87,11 +87,19 @@ const makeText = (text) => {
 }
 
 const init = () => {
-    fetch("../data/cards.json").then(
+    fetch("../data/cardsStructure.json").then(
         response => response.json()
     ).then(data => {
-        renderCards(data)
+        render(data)
     })
 };
+
+function render(data) {
+    for (let i = 0; i < data.length; i++) {
+        if (data[i].root === true) {
+            document.querySelector("body").appendChild(document.createElement(data[i].tag));
+        }
+    }
+}
 
 init();
