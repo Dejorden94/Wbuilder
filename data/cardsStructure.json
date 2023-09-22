@@ -11,53 +11,8 @@
                     {
                         "tag": "h1",
                         "classList": "card__heading",
-                        "children": []
-                    }
-                ]
-            },
-            {
-                "tag": "div",
-                "classList": "",
-                "children": [
-                    {
-                        "tag": "section",
-                        "classList": "card__body",
-                        "children": [
-                            {
-                                "tag": "p",
-                                "classList": "card__text",
-                                "children": []
-                            }
-                        ]
-                    },
-                    {
-                        "tag": "footer",
-                        "classList": "card__footer",
-                        "children": [
-                            {
-                                "tag": "button",
-                                "classList": "card__action",
-                                "children": []
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "tag": "article",
-        "classList": "card",
-        "children": [
-            {
-                "tag": "header",
-                "classList": "card__header",
-                "children": [
-                    {
-                        "tag": "h1",
-                        "classList": "card__heading",
                         "children": [],
-                        "text": "Card 2"
+                        "text": "Card 1"
                     }
                 ]
             },
@@ -85,7 +40,7 @@
                                 "tag": "button",
                                 "classList": "card__action",
                                 "children": [],
-                                "text": "action"
+                                "text": "Action"
                             }
                         ]
                     }
@@ -105,7 +60,8 @@
                     {
                         "tag": "h1",
                         "classList": "card__heading",
-                        "children": []
+                        "children": [],
+                        "text": "Card 1"
                     }
                 ]
             },
@@ -119,8 +75,9 @@
                         "children": [
                             {
                                 "tag": "p",
-                                "classList": "card__text",
-                                "children": []
+                                "classList": "",
+                                "children": [],
+                                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore itaque eius non? Recusandae, quisquam."
                             }
                         ]
                     },
@@ -131,7 +88,204 @@
                             {
                                 "tag": "button",
                                 "classList": "card__action",
-                                "children": []
+                                "children": [],
+                                "text": "Action"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "root": true,
+        "tag": "article",
+        "classList": "card",
+        "children": [
+            {
+                "tag": "header",
+                "classList": "card__header",
+                "children": [
+                    {
+                        "tag": "h1",
+                        "classList": "card__heading",
+                        "children": [],
+                        "text": "Card 1"
+                    }
+                ]
+            },
+            {
+                "tag": "div",
+                "classList": "",
+                "children": [
+                    {
+                        "tag": "section",
+                        "classList": "card__body",
+                        "children": [
+                            {
+                                "tag": "p",
+                                "classList": "",
+                                "children": [],
+                                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore itaque eius non? Recusandae, quisquam."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "footer",
+                        "classList": "card__footer",
+                        "children": [
+                            {
+                                "tag": "button",
+                                "classList": "card__action",
+                                "children": [],
+                                "text": "Action"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "root": true,
+        "tag": "article",
+        "classList": "card",
+        "children": [
+            {
+                "tag": "header",
+                "classList": "card__header",
+                "children": [
+                    {
+                        "tag": "h1",
+                        "classList": "card__heading",
+                        "children": [],
+                        "text": "Card 1"
+                    }
+                ]
+            },
+            {
+                "tag": "div",
+                "classList": "",
+                "children": [
+                    {
+                        "tag": "section",
+                        "classList": "card__body",
+                        "children": [
+                            {
+                                "tag": "p",
+                                "classList": "",
+                                "children": [],
+                                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore itaque eius non? Recusandae, quisquam."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "footer",
+                        "classList": "card__footer",
+                        "children": [
+                            {
+                                "tag": "button",
+                                "classList": "card__action",
+                                "children": [],
+                                "text": "Action"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "root": true,
+        "tag": "article",
+        "classList": "card",
+        "children": [
+            {
+                "tag": "header",
+                "classList": "card__header",
+                "children": [
+                    {
+                        "tag": "h1",
+                        "classList": "card__heading",
+                        "children": [],
+                        "text": "Card 1"
+                    }
+                ]
+            },
+            {
+                "tag": "div",
+                "classList": "",
+                "children": [
+                    {
+                        "tag": "section",
+                        "classList": "card__body",
+                        "children": [
+                            {
+                                "tag": "p",
+                                "classList": "",
+                                "children": [],
+                                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore itaque eius non? Recusandae, quisquam."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "footer",
+                        "classList": "card__footer",
+                        "children": [
+                            {
+                                "tag": "button",
+                                "classList": "card__action",
+                                "children": [],
+                                "text": "Action"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "root": true,
+        "tag": "article",
+        "classList": "card",
+        "children": [
+            {
+                "tag": "header",
+                "classList": "card__header",
+                "children": [
+                    {
+                        "tag": "h1",
+                        "classList": "card__heading",
+                        "children": [],
+                        "text": "Card 1"
+                    }
+                ]
+            },
+            {
+                "tag": "div",
+                "classList": "",
+                "children": [
+                    {
+                        "tag": "section",
+                        "classList": "card__body",
+                        "children": [
+                            {
+                                "tag": "p",
+                                "classList": "",
+                                "children": [],
+                                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolore itaque eius non? Recusandae, quisquam."
+                            }
+                        ]
+                    },
+                    {
+                        "tag": "footer",
+                        "classList": "card__footer",
+                        "children": [
+                            {
+                                "tag": "button",
+                                "classList": "card__action",
+                                "children": [],
+                                "text": "Action"
                             }
                         ]
                     }
