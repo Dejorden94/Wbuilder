@@ -87,11 +87,15 @@ const makeText = (text) => {
 }
 
 const init = () => {
-    fetch("../data/cardsStructure.json").then(
-        response => response.json()
-    ).then(data => {
-        render(data)
-    })
+    fetch("https://dejorden94.github.io/Wbuilder/data/cardsStructure.json")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => renderCards(data))
+        .catch(error => console.error('Er is een fout opgetreden:', error));
 };
 
 function render(data, parent) {
